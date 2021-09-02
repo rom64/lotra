@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lotra</title>
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="libs/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="libs/scrollbar/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+@@include('parts/_menu.html')
+<div class="wrapper">
+    @@include('parts/_header.html')
+    <section class="promo">
+        <div class="container">
+            <div class="promo__content-wrap">
+                <div class="promo__content-transport">
+                    <h1 class="promo__title title promo__page-title">
+                        контакты
+                    </h1>
+                    <div class="promo__contacts">
+                        <div class="promo__contacts-phone">
+                            <a href="tel:+380487737500" >
+                                <img src="img/phone.svg" alt="phone" >
+                                +38 (048) 773 75 00
+                            </a>
+                        </div>
+                        <div class="promo__contacts-mail">
+                            <a href="mailto:office@lotra.com.ua" >
+                                <img src="img/mail.svg" alt="email" >
+                                office@lotra.com.ua
+                            </a>
+                        </div>
+                        <div class="promo__contacts-social">
+                            <a href="" class="questions__social-link"><img src="img/telegram.svg" alt="telegram"></a>
+                            <a href="" class="questions__social-link"><img src="img/viber.svg" alt="viber"></a>
+                            <a href="" class="questions__social-link"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+<section class="contacts">
+    <div class="container">
+        <div class="contacts__inner">
+            <div class="contacts__left">
+                <div class="contacts__left-wrap">
+                    <h3 class="questions__promo-title title contacts__title">
+                        Остались вопросы?
+                    </h3>
+
+                    <div class="questions__form">
+                    <form action="#">
+                        <div class="questions__input">
+                            <label for="name">Имя:</label>
+                            <input  id="name" type="text" >
+                        </div>
+                        <div class="questions__input">
+                            <label for="phone">Телефон:</label>
+                            <input id="phone" type="text" >
+                        </div>
+                        <div class="questions__input">
+                            <label for="mail">Email:</label>
+                            <input id="mail" type="text" >
+                        </div>
+                        <div class="questions__input">
+                            <label for="text">Сообщение:</label>
+                            <textarea name="" id="text" cols="30" rows="2"></textarea>
+                        </div>
+                        <button class="btn questions__btn">Задать вопрос</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <div class="contacts__right">
+                <div class="contacts__right-map">
+                    <div style="width: 100%; overflow: hidden;"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=525&amp;hl=ru&amp;q=%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,%20%D0%BF%D1%80-%D1%82%20%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE%2012/2+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="525" frameborder="0"></iframe></div>
+                </div>
+                <div class="contacts__right-adress">
+                    65058, Украина, Одесса, пр-т Шевченко 12/2, офис 213
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__top-left footer__left-page">
+                <div class="footer__top-logo">
+                    <a href="#" class="footer__top-link">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+
+                    <div class="footer__top-text">
+                        Компания ЛОТРА это команда профессионалов с многолетним опытом в реализации транспортно-логистических проектов любой сложности с неизменно безупречным и качественным результатом
+                    </div>
+                </div>
+            </div>
+            <div class="footer__center">
+                    <div class="footer__right-title">
+                        <a href="/" class="footer__center-link">Главная</a>
+                    </div>
+                </div>
+            <div class="footer__center">
+                    <div class="footer__right-title">
+                        <a href="index.html#about" class="footer__center-link">О компании</a>
+                    </div>
+                </div>
+            <div class="footer__top-right footer__right-page">
+                <div class="footer__right-inner">
+                    <div class="footer__right-services">
+                        <div class="footer__right-title">
+                            Услуги
+                        </div>
+                        <ul class="footer__right-list">
+                            <li class="footer__right-item">
+                                <a href="auto.html" class="footer__right-link">Грузоперевозки автотранспортом</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="train.html" class="footer__right-link">Железнодорожные перевозки</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="boat.html" class="footer__right-link">Контейнерные перевозки</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="avia.html" class="footer__right-link">Авиаперевозки</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="#" class="footer__right-link">Доставка авто из США</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-contacts">
+                        <div class="footer__right-title">
+                            <a href="#" class="footer__center-link">Контакты</a>
+                        </div>
+                        <a href="tel:+380487737500" class="footer__right-link"><img src="img/footer-phone.svg" alt="phone">+38 (048) 773 75 00</a>
+                        <a href="mailto:office@lotra.com.ua" class="footer__right-link"><img src="img/footer-mail.svg" alt="email">office@lotra.com.ua</a>
+                        <div class="footer__right-link"><img src="img/footer-adress.svg" alt="adress">Украина, Одесса,
+                            пр-т Шевченко 12/2,
+                            офис 213</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__bottom-item">
+                <div class="footer__copy">
+                    © 2020–2021 All Rights Reserved
+                </div>
+            </div>
+            <div class="footer__bottom-item">
+                <div class="footer__social">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="img/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="img/youtube.svg" alt="youtube">
+                    </a>
+
+                </div>
+            </div>
+            <div class="footer__bottom-item">
+                <div class="footer__made">
+                    <a class="me" href="https://rlitvinov.ru">
+                        Создание сайта
+                        <img src="img/copy.png" alt="copy">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script  src="libs/jquery/jquery-3.0.0.min.js"></script>
+<script  src="libs/jquery/jquery-migrate-1.4.1.min.js"></script>
+<script  src="libs/slick/slick.min.js"></script>
+<script  src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+<script  src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script  src="libs/scrollbar/jquery.mCustomScrollbar.min.js"></script>
+<script src="libs/wow/wow.js"></script>
+<script  src="js/style.js"></script>
+
+
+</body>
+</html>
+
+

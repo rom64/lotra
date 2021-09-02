@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lotra</title>
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="libs/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="libs/scrollbar/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+@@include('parts/_menu.html')
+
+<div class="wrapper">
+    @@include('parts/_header.html')
+    <div class="header__mob">
+        <div class="header__mob-content">
+            <div class="header__mob-item">
+                <div class="header__mob-btn">
+                    <img src="img/header-btn.svg" alt="">
+                </div>
+            </div>
+            <div class="header__mob-item">
+                <div class="header__mob-logo">
+                    <img src="img/header-logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="promo">
+        <div class="container">
+            <div class="promo__content-wrap">
+                <div class="promo__content-transport">
+                    <h1 class="promo__title title promo__page-title">
+                        авиаперевозки
+                    </h1>
+                  <!--  <div class="promo__content">
+                        <div class="promo__transport">
+                            Компания ЛОТРА это команда профессионалов с многолетним опытом в реализации транспортно-логистических проектов любой сложности с неизменно безупречным и качественным результатом
+                        </div>
+                    </div>-->
+                    <a href="#calculator"><button class="btn promo__btn promo__btn-transport">Рассчитать стоимость</button></a>
+                    <a href="#questions"> <button class="btn promo__btn promo__btn-transport second-btn" >Задать вопрос</button></a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="promo__avia">
+            <img src="img/plane.png" alt="train">
+        </div>
+    </section>
+</div>
+<section class ="description">
+
+    <div class="container">
+        <div class="description__inner">
+            <div class="description__left">
+                <p>Самым распространенным и универсальным способом доставки грузов остается автомобильный транспорт. Наша компания осуществляет автомобильные перевозки грузов, как по территории Украины, так и по  странам СНГ, Европы и средней Азии.
+                </p>
+                <p> Компания «ЛОТРА» предлагает доставку:
+                </p>
+                <ul>
+                    <li>сборных грузов изв Европу</li>
+                    <li> доставка целыми машинами по территории Украины, Европе, странам СНГ, средней Азии</li>
+                    <li>перевозка контейнеров автотранспортом</li>
+                    <li>перевозка бортовим автотранспортом</li>
+                    <li>рефрижераторные перевозки</li>
+                    <li>оформление документации, оформление таможенных документов и экспортно-импортных деклараций.я</li>
+
+                </ul>
+            </div>
+            <div class="description__right">
+                <img src="img/text.png" alt="text">
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="shipping">
+    <div class="container">
+        <h3 class="shipping__title title">
+            преимущества <br>
+            грузоперевозок автотранспортом
+        </h3>
+        <div class="shipping__content">
+            <div class="shipping__item">
+                <div class="shipping__item-img">
+                    <img src="img/profit1.png" alt="step1">
+                </div>
+                <div class="shipping__text-wrap">
+                    <div class="shipping__item-title">
+                        Цена
+                    </div>
+                    <div class="shipping__item-text">
+                        Наличие собственного автопарка и парнерства с ведущими перевозчиками позволяет предлагать нашим клиентам самые выгодные тарифы
+                    </div>
+                </div>
+
+            </div>
+            <div class="shipping__item">
+                <div class="shipping__item-img">
+                    <img src="img/profit2.png" alt="step2">
+                </div>
+                <div class="shipping__text-wrap">
+                    <div class="shipping__item-title">
+                        Скорость
+                    </div>
+                    <div class="shipping__item-text">
+                        Самый быстрый способ транспортировки после авиасообщения. Тщательное планирование маршрута и профессионализм наших водителей обеспечивают своевременную доставку груза в полной сохранности.
+                    </div>
+                </div>
+
+            </div>
+            <div class="shipping__item">
+                <div class="shipping__item-img">
+                    <img src="img/profit3.png" alt="step3">
+                </div>
+                <div class="shipping__text-wrap">
+                    <div class="shipping__item-title">
+                        Сопровождение
+                    </div>
+                    <div class="shipping__item-text">
+                        В нашем арсенале — грузовые автомобили разной конфигурации, рассчитаные на доставку всех типов груза. Средний возраст транспортных средства не превышает 8 лет.
+                    </div>
+                </div>
+
+            </div>
+            <div class="shipping__item">
+                <div class="shipping__item-img">
+                    <img src="img/profit4.png" alt="step4">
+                </div>
+                <div class="shipping__text-wrap">
+                    <div class="shipping__item-title">
+                        Оперативность
+                    </div>
+                    <div class="shipping__item-text">
+                        Все автомобили проходят регулярное техобслуживание, поэтому мы с увереностью можем гарантировать исправность каждого грузового автомобиля
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="calculator" class="calculator">
+    <div class="container">
+        <div class="calculator__inner">
+            <form action="#" class="calculator__form">
+                <div class="calculator__top">
+                    <div class="calculator__left">
+                        <h3 class="calculator__title title">
+                            Калькулятор
+                        </h3>
+                        <h5 class="calculator__subtitle">
+                            Стоимости доставки груза
+                        </h5>
+                        <div class="calculator__img">
+                            <img src="img/calculator.png" alt="calculator">
+                        </div>
+                    </div>
+                    <div class="calculator__right">
+                        <h6 class="calculator__contacts">
+                            Маршрут
+                        </h6>
+                        <div class="calculator__contacts-block calculator__contacts-blockCountry rel calculator__arrow">
+                            <input id="send" type="text" class="calculator__contacts-input" placeholder="Украина">
+                            <label for="send">Страна отправки</label>
+                        </div>
+                        <div class="calculator__contacts-block calculator__contacts-blockCountry rel">
+                            <label for="delivery">Страна доставки</label>
+                            <input id="delivery" type="text" class="calculator__contacts-input" placeholder="Украина">
+                        </div>
+                        <h6 class="calculator__contacts ">
+                            Параметры груза
+                        </h6>
+                        <div class="calculator__contacts-block">
+                            <label for="volume">Объём груза </label>
+                            <input id="volume" type="text" class="calculator__contacts-input" placeholder=" 8м/куб">
+                        </div>
+                        <div class="calculator__contacts-block">
+                            <label for="weight">Вес груза</label>
+                            <input id="weight" type="text" class="calculator__contacts-input" placeholder="5 тонн">
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator__contacts-bottom">
+                    <h6 class="calculator__contacts">
+                        Контактная информация
+                    </h6>
+                    <div class="calculator__contacts-data">
+                        <div class="calculator__contacts-info">
+                            <label for="c-name">Имя</label>
+                            <input id="c-name" type="text" class="calculator__contacts-input">
+                        </div>
+                        <div class="calculator__contacts-info">
+                            <label for="c-phone">Телефон</label>
+                            <input id="c-phone" type="text" class="calculator__contacts-input">
+                        </div>
+                        <div class="calculator__contacts-info">
+                            <label for="c-mail">Email</label>
+                            <input id="c-mail" type="text" class="calculator__contacts-input">
+                        </div>
+                        <div class="calculator__contacts-info">
+                            <label for="c-text">Сообщение</label>
+                            <input id="c-text" type="text" class="calculator__contacts-input">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn calculator__btn">Рассчитать стоимость</button>
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+</section>
+<section class="stages">
+    <div class="container">
+        <h3 class="stages__title title">
+            Этапы сотрудничества
+        </h3>
+        <div class="stages__inner">
+            <div class="stages__img">
+                <div class="stages__line">
+
+                </div>
+                <div class="stages__transport">
+                    <img src="img/stages-avia.png" alt="">
+                </div>
+            </div>
+            <div class="stages__content">
+                <div class="stages__item">
+                    <div class="stages__item-img">
+                        <img src="img/step1.png" alt="step1">
+                    </div>
+                    <div class="stages__text-wrap">
+                        <div class="stages__item-title">
+                            Шаг 1
+                        </div>
+                        <div class="stages__item-text">
+                            Вы оставляете заявку
+                        </div>
+                    </div>
+
+                </div>
+                <div class="stages__item">
+                    <div class="stages__item-img">
+                        <img src="img/step2.png" alt="step2">
+                    </div>
+                    <div class="stages__text-wrap">
+                        <div class="stages__item-title">
+                            Шаг 2
+                        </div>
+                        <div class="stages__item-text">
+                            Согласовываем сроки и тарифы. Оформляем документы
+                        </div>
+                    </div>
+
+                </div>
+                <div class="stages__item">
+                    <div class="stages__item-img">
+                        <img src="img/step3.png" alt="step3">
+                    </div>
+                    <div class="stages__text-wrap">
+                        <div class="stages__item-title">
+                            Шаг 3
+                        </div>
+                        <div class="stages__item-text">
+                            Представляем адрес вашего склада и номер отправки
+                        </div>
+                    </div>
+
+                </div>
+                <div class="stages__item">
+                    <div class="stages__item-img">
+                        <img src="img/step4.png" alt="step4">
+                    </div>
+                    <div class="stages__text-wrap">
+                        <div class="stages__item-title">
+                            Шаг 4
+                        </div>
+                        <div class="stages__item-text">
+                            Растаможка грузов и транспортировка
+                        </div>
+                    </div>
+
+                </div>
+                <div class="stages__item">
+                    <div class="stages__item-img">
+                        <img src="img/step5.png" alt="step5">
+                    </div>
+                    <div class="stages__text-wrap">
+                        <div class="stages__item-title">
+                            Шаг 5
+                        </div>
+                        <div class="stages__item-text">
+                            Наш менеджер связывается с вами для передачи товара и оплаты доставки
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="services" class="services">
+    <div class="container">
+        <div class="services__inner">
+            <!--<div class="services__left">
+                <h2 class="services__title title">
+                    Услуги
+                </h2>
+                <div class="services__left-img">
+                    <img src="img/service.png" alt="service">
+                </div>
+            </div>
+            <div class="services__right">
+                <div class="services__right-inner">
+                    <a href="auto.html" class="services__right-item">
+                        <div class="services__right-icon">
+                            <div class="services__right-img">
+                                <img src="img/auto.svg" alt="auto">
+                            </div>
+
+                            <div class="services__right-title">
+                                Грузоперевозки
+                                автотранспортом
+                            </div>
+                        </div>
+                        <div class="services__right-description">
+                            Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет автомобильные перевозки
+                            <img src="img/service-arrow.svg" alt="arrow">
+                        </div>
+
+                    </a>
+                    <a href="train.html" class="services__right-item">
+                        <div class="services__right-icon">
+                            <div class="services__right-img">
+                                <img src="img/train.svg" alt="train">
+                            </div>
+
+                            <div class="services__right-title">
+                                Железнодорожные
+                                перевозки
+                            </div>
+                        </div>
+                        <div class="services__right-description">
+                            Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                            <img src="img/service-arrow.svg" alt="arrow">
+                        </div>
+
+                    </a>
+                    <a href="avia.html" class="services__right-item">
+                        <div class="services__right-icon">
+                            <div class="services__right-img">
+                                <img src="img/avia.svg" alt="train">
+                            </div>
+
+                            <div class="services__right-title">
+                                Авиаперевозки
+                            </div>
+                        </div>
+                        <div class="services__right-description">
+                            Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                            <img src="img/service-arrow.svg" alt="arrow">
+                        </div>
+
+                    </a>
+                    <a href="boat.html" class="services__right-item">
+                        <div class="services__right-icon">
+                            <div class="services__right-img">
+                                <img src="img/boat.svg" alt="boat">
+                            </div>
+
+                            <div class="services__right-title">
+                                Контейнерные
+                                перевозки
+                            </div>
+                        </div>
+                        <div class="services__right-description">
+                            Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет автомобильные перевозки грузов, как по территории
+                            <img src="img/service-arrow.svg" alt="arrow">
+                        </div>
+
+                    </a>
+                    <a href="https://lotra-auto.com" target="_blank" class="services__right-item">
+                        <div class="services__right-icon">
+                            <div class="services__right-img">
+                                <img src="img/usa.svg" alt="boat">
+                            </div>
+
+                            <div class="services__right-title">
+                                доставка авто из США
+                            </div>
+                        </div>
+                        <div class="services__right-description">
+                            Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет автомобильные перевозки грузов, как по территории
+                            <img src="img/service-arrow.svg" alt="arrow">
+                        </div>
+
+                    </a>
+                </div>
+            </div>-->
+            <h2 class="services__title title">
+                Другие способы доставки
+            </h2>
+            <div class="services__items">
+                <div class="services__item">
+                    <a href="auto.html" class="services__link">
+                        <div class="services__top">
+                            <div class="services__top-img">
+                                <span class="services__top-image" data-svg="img/auto.svg"></span>
+                            </div>
+                            <div class="services__top-title">
+                                Грузоперевозки автотранспортом
+                            </div>
+                        </div>
+                        <div class="services__bottom">
+                            <div class="services__bottom-description">
+                                Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                                <img src="img/services-arrow.svg" alt="arrow">
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="services__item">
+                    <a href="train.html" class="services__link">
+                        <div class="services__top">
+                            <div class="services__top-img">
+                                <span class="services__top-image" data-svg="img/train.svg"></span>
+                            </div>
+                            <div class="services__top-title">
+                                Железнодорожные
+                                перевозки
+                            </div>
+                        </div>
+                        <div class="services__bottom">
+                            <div class="services__bottom-description">
+                                Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                                <img src="img/services-arrow.svg" alt="arrow">
+                            </div>
+
+
+                        </div>
+                    </a>
+                </div>
+                <div class="services__item">
+                    <a href="boat.html" class="services__link">
+                        <div class="services__top">
+                            <div class="services__top-img">
+                                <span class="services__top-image" data-svg="img/boat.svg"></span>
+                            </div>
+                            <div class="services__top-title">
+                                Контейнерные
+                                перевозки
+                            </div>
+                        </div>
+                        <div class="services__bottom">
+                            <div class="services__bottom-description">
+                                Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                                <img src="img/services-arrow.svg" alt="arrow">
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="services__item">
+                    <a href="avia.html" class="services__link">
+                        <div class="services__top">
+                            <div class="services__top-img">
+                                <span class="services__top-image" data-svg="img/avia.svg"></span>
+                            </div>
+                            <div class="services__top-title">
+                                Авиаперевозки
+                            </div>
+                        </div>
+                        <div class="services__bottom">
+                            <div class="services__bottom-description">
+                                Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                                <img src="img/services-arrow.svg" alt="arrow">
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="services__item">
+                    <a href="https://lotra-auto.com" class="services__link">
+                        <div class="services__top">
+                            <div class="services__top-img">
+                                <span class="services__top-image" data-svg="img/usa.svg"></span>
+                            </div>
+                            <div class="services__top-title">
+                                Доставка авто из США
+                            </div>
+                        </div>
+                        <div class="services__bottom">
+                            <div class="services__bottom-description">
+                                Самым распространённым и универсальным способом доставки грузов остаётся автомобильный транспорт. Наша компания осуществляет
+                                <img src="img/services-arrow.svg" alt="arrow">
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="text">
+    <div class="container">
+        <div class="text__inner">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl elementum maecenas nunc amet ultrices facilisis morbi orci. Magna potenti ipsum laoreet nisl bibendum sed viverra tincidunt. Penatibus ligula et id pellentesque. Donec amet habitant viverra sit pharetra luctus.
+        </div>
+    </div>
+
+</section>
+<section id="questions" class="questions">
+    <div class="container">
+        <div class="questions__promo">
+            <h3 class="questions__promo-title title">
+                Остались вопросы?
+            </h3>
+            <div class="questions__promo-text">
+                Оставьте запрос через форму или напишите нам в один из месенджеров, и наши менеджеры свяжутся с вами в кратчайшие сроки
+            </div>
+        </div>
+        <div class="questions__content">
+            <div class="questions__left">
+                <img src="img/questions.png" alt="questions">
+            </div>
+            <div class="questions__right">
+                <div class="questions__social">
+                    <a href="" class="questions__social-link"><img src="img/telegram.svg" alt="telegram"></a>
+                    <a href="" class="questions__social-link"><img src="img/viber.svg" alt="viber"></a>
+                    <a href="" class="questions__social-link"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                </div>
+                <div class="questions__form">
+                    <form action="#">
+                        <div class="questions__input">
+                            <label for="name">Имя:</label>
+                            <input  id="name" type="text" >
+                        </div>
+                        <div class="questions__input">
+                            <label for="phone">Телефон:</label>
+                            <input id="phone" type="text" >
+                        </div>
+                        <div class="questions__input">
+                            <label for="mail">Email:</label>
+                            <input id="mail" type="text" >
+                        </div>
+                        <div class="questions__input">
+                            <label for="text">Сообщение:</label>
+                            <textarea name="" id="text" cols="30" rows="2"></textarea>
+                        </div>
+                        <button class="btn questions__btn">Задать вопрос</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__top-left footer__left-page">
+                <div class="footer__top-logo">
+                    <a href="#" class="footer__top-link">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+
+                    <div class="footer__top-text">
+                        Компания ЛОТРА это команда профессионалов с многолетним опытом в реализации транспортно-логистических проектов любой сложности с неизменно безупречным и качественным результатом
+                    </div>
+                </div>
+            </div>
+            <div class="footer__center">
+                <div class="footer__right-title">
+                    <a href="/" class="footer__center-link">Главная</a>
+                </div>
+            </div>
+            <div class="footer__center">
+                <div class="footer__right-title">
+                    <a href="index.html#about" class="footer__center-link">О компании</a>
+                </div>
+            </div>
+            <div class="footer__top-right footer__right-page">
+                <div class="footer__right-inner">
+                    <div class="footer__right-services">
+                        <div class="footer__right-title">
+                            Услуги
+                        </div>
+                        <ul class="footer__right-list">
+                            <li class="footer__right-item">
+                                <a href="auto.html" class="footer__right-link">Грузоперевозки автотранспортом</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="train.html" class="footer__right-link">Железнодорожные перевозки</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="boat.html" class="footer__right-link">Контейнерные перевозки</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="avia.html" class="footer__right-link">Авиаперевозки</a>
+                            </li>
+                            <li class="footer__right-item">
+                                <a href="https://lotra-auto.com/" target="_blank" class="footer__right-link">Доставка авто из США</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-contacts">
+                        <div class="footer__right-title">
+                            <a href="contacts.html" class="footer__center-link">Контакты</a>
+                        </div>
+                        <a href="tel:+380487737500" class="footer__right-link"><img src="img/footer-phone.svg" alt="phone">+38 (048) 773 75 00</a>
+                        <a href="mailto:office@lotra.com.ua" class="footer__right-link"><img src="img/footer-mail.svg" alt="email">office@lotra.com.ua</a>
+                        <div class="footer__right-link"><img src="img/footer-adress.svg" alt="adress">Украина, Одесса,
+                            пр-т Шевченко 12/2,
+                            офис 213</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__bottom-item">
+                <div class="footer__copy">
+                    © 2020–2021 All Rights Reserved
+                </div>
+            </div>
+            <div class="footer__bottom-item">
+                <div class="footer__social">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="img/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="img/youtube.svg" alt="youtube">
+                    </a>
+
+                </div>
+            </div>
+            <div class="footer__bottom-item">
+                <div class="footer__made">
+                    <a class="me" href="https://rlitvinov.ru">
+                        Создание сайта
+                        <img src="img/copy.png" alt="copy">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script  src="libs/jquery/jquery-3.0.0.min.js"></script>
+<script  src="libs/jquery/jquery-migrate-1.4.1.min.js"></script>
+<script  src="libs/slick/slick.min.js"></script>
+<script  src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+<script  src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script  src="libs/scrollbar/jquery.mCustomScrollbar.min.js"></script>
+<script src="libs/wow/wow.js"></script>
+<script  src="js/style.js"></script>
+
+
+</body>
+</html>
+
+

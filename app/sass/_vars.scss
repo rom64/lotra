@@ -1,0 +1,60 @@
+//  Colors
+$white: #fff;
+$gray: #c5c5c5;
+$blue: #4c4cd9;
+$darkblue: #0000b7;
+$black: #000;
+$orange: #ffa233;
+
+//  Body
+$body: (
+	line-height: 1.45,
+	max-font-size: 17px,
+	min-font-size: 15px,
+	font-weight: medium,
+	color: $black,
+	background-color: $white,
+
+) !default;
+
+%bs-bold{
+	font-family:'BloggerSans';
+	font-weight: 700;
+}
+%bs-medium{
+	font-family:'BloggerSans';
+	font-weight: 500;
+}
+%m-bold{
+	font-family:'Montserrat';
+	font-weight: 700;
+}
+%m-medium{
+	font-family:'Montserrat';
+	font-weight: 500;
+}
+%m-regular{
+	font-family:'Montserrat';
+	font-weight: 400;
+}
+%m-semiBold{
+	font-family:'Montserrat';
+	font-weight: 600;
+}
+%o-bold{
+	font-family:'OpenSans';
+	font-weight: 700;
+}
+%o-regular{
+	font-family:'OpenSans';
+	font-weight: 400;
+}
+%o-medium{
+	font-family:'OpenSans';
+	font-weight: 500;
+}
+%r-medium{
+	font-family:'Roboto';
+	font-weight: 500;
+}
+$breakpoints: ('1200': 1200px, '992': 992px, '768': 768px, '480': 480px);
