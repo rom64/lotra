@@ -642,6 +642,7 @@
     height: rem(225px);
     border-radius: rem(10px) ;
     transition: all 0.5s ease;
+
     //backdrop-filter: blur(50px);
    /* &:hover{
       background-image: url("../img/services-blue.png");
@@ -652,7 +653,8 @@
     }*/
   }
   &__top-img{
-    max-width: 100px;
+    max-width:rem(108px);
+    height: rem(108px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -669,7 +671,9 @@
   }*/
   &__top-image{
     //width: rem(96px);
+    height: 100%;
     svg{
+height: 100%;
       width: 100%;
     }
   }
